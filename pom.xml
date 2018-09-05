@@ -38,14 +38,7 @@
         </developer>
     </developers>
 
-    <modules>
-        <module>liquibase-core</module>
-        <module>liquibase-maven-plugin</module>
-        <module>liquibase-cdi</module>
-        <module>liquibase-integration-tests</module>
-    </modules>
-
-    <scm>
+   <scm>
         <connection>scm:git:git@github.com:liquibase/liquibase.git</connection>
         <url>scm:git:git@github.com:liquibase/liquibase.git</url>
         <developerConnection>scm:git:git@github.com:liquibase/liquibase.git</developerConnection>
