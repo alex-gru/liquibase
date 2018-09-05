@@ -39,10 +39,7 @@
     </developers>
 
     <modules>
-        <module>liquibase-core</module>
-        <module>liquibase-maven-plugin</module>
-        <module>liquibase-cdi</module>
-        <module>liquibase-integration-tests</module>
+        <module>liquibase-core</module>	
     </modules>
 
     <scm>
@@ -653,30 +650,6 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
-
-        <profile>
-            <id>debian</id>
-            <activation>
-                <os>
-                    <family>linux</family>
-                </os>
-            </activation>
-            <modules>
-                <module>liquibase-debian</module>
-            </modules>
-        </profile>
-
-        <profile>
-            <id>rpm</id>
-            <activation>
-                <os>
-                    <family>linux</family>
-                </os>
-            </activation>
-            <modules>
-                <module>liquibase-rpm</module>
-            </modules>
         </profile>
 
         <profile>
