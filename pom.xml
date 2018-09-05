@@ -648,19 +648,7 @@
             </build>
         </profile>
 
-        <profile>
-            <id>debian</id>
-            <activation>
-                <os>
-                    <family>linux</family>
-                </os>
-            </activation>
-            <modules>
-                <module>liquibase-debian</module>
-            </modules>
-        </profile>
-
-        <profile>
+       <profile>
             <id>doclint-java8-disable</id>
             <activation>
                 <jdk>[1.8,)</jdk>
